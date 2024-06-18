@@ -27,6 +27,27 @@ const App = () => {
         </p>
       </section>
 
+      <section className="publishing">
+        <h2>Publishing</h2>
+        <p>
+          At Rocapine, we are building a studio-centric publishing platform, to
+          empower passionate and talented creators, and scale wellness solutions
+          to millions.
+        </p>
+        <p>
+          Our approach is studio-centric rather than app centric, as we believe
+          talented teams can achieve multiple successful apps, with the support
+          of our publishing platform (Rocapine was created by an ex-Voodoo). We
+          aim to empower studios with wellness product expertise, development
+          tools and marketing capabilities.
+        </p>
+        <p>
+          Reach out to us <a href="#publishing-form">here</a> if you have a
+          published app we can help you scale further, or if you are interested
+          in developing wellness apps with Rocapine!
+        </p>
+      </section>
+
       <section className="join-us">
         <h2>Join the team</h2>
         <p>
@@ -51,27 +72,6 @@ const App = () => {
             <a href="#spontaneous-application">Spontaneous Application</a>
           </li>
         </ul>
-      </section>
-
-      <section className="publishing">
-        <h2>Publishing</h2>
-        <p>
-          At Rocapine, we are building a studio-centric publishing platform, to
-          empower passionate and talented creators, and scale wellness solutions
-          to millions.
-        </p>
-        <p>
-          Our approach is studio-centric rather than app centric, as we believe
-          talented teams can achieve multiple successful apps, with the support
-          of our publishing platform (Rocapine was created by an ex-Voodoo). We
-          aim to empower studios with wellness product expertise, development
-          tools and marketing capabilities.
-        </p>
-        <p>
-          Reach out to us <a href="#publishing-form">here</a> if you have a
-          published app we can help you scale further, or if you are interested
-          in developing wellness apps with Rocapine!
-        </p>
       </section>
     </div>
   );
