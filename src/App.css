@@ -23,8 +23,23 @@
   max-width: 560px;
 }
 
+.separator {
+  border: none;
+  border-top: 1px dashed transparent;
+  border-image: repeating-linear-gradient(
+      to right,
+      #01796f 0,
+      #01796f 4px,
+      transparent 4px,
+      transparent 10px
+    )
+    1;
+  border-image-slice: 1;
+  width: 100%;
+}
+
 h2 {
-  color: #333;
+  font-family: "Noto Sans", sans-serif;
 }
 
 a {

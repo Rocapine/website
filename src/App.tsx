@@ -8,6 +8,8 @@ const App = () => {
         <p>A singular health & wellness experience at your fingertips.</p>
       </header>
 
+      <div className="separator" />
+
       <section className="about">
         <h2>Who we are</h2>
         <p>
