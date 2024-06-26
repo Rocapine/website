@@ -45,9 +45,12 @@ const App = () => {
           tools and marketing capabilities.
         </p>
         <p>
-          Reach out to us <a href="#publishing-form">here</a> if you have a
-          published app we can help you scale further, or if you are interested
-          in developing wellness apps with Rocapine!
+          Reach out to us{" "}
+          <a href="mailto:contact@rocapine.com?subject=Application for Publishing partner">
+            here
+          </a>{" "}
+          if you have a published app we can help you scale further, or if you
+          are interested in developing wellness apps with Rocapine!
         </p>
       </section>
 
@@ -60,19 +63,29 @@ const App = () => {
         </p>
         <ul>
           <li>
-            <a href="#product-manager">Product Manager</a>
+            <a href="mailto:contact@rocapine.com?subject=Application for Product Manager">
+              Product Manager
+            </a>
           </li>
           <li>
-            <a href="#designer">Designer</a>
+            <a href="mailto:contact@rocapine.com?subject=Application for Designer">
+              Designer
+            </a>
           </li>
           <li>
-            <a href="#developer">Developer (React Native or Swift)</a>
+            <a href="mailto:contact@rocapine.com?subject=Application for Developer (React Native or Swift)">
+              Developer (React Native or Swift)
+            </a>
           </li>
           <li>
-            <a href="#marketing-specialist">Marketing Specialist</a>
+            <a href="mailto:contact@rocapine.com?subject=Application for Marketing Specialist">
+              Marketing Specialist
+            </a>
           </li>
           <li>
-            <a href="#spontaneous-application">Spontaneous Application</a>
+            <a href="mailto:contact@rocapine.com?subject=Spontaneous Application">
+              Spontaneous Application
+            </a>
           </li>
         </ul>
       </section>
