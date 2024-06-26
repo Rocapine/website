@@ -4,7 +4,7 @@ const App = () => {
   return (
     <div className="App">
       <header className="header">
-        <h1>Rocapine</h1>
+        <h1 style={{ fontFamily: "Grounded" }}>Rocapine</h1>
         <p>A singular health & wellness experience at your fingertips.</p>
       </header>
 
