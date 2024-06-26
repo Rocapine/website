@@ -5,7 +5,7 @@ const App = () => {
     <div className="App">
       <header className="header">
         <div className="logo-title">
-          <img src="src/assets/logo.svg" alt="Rocapine Logo" className="logo" />
+          <img src="logo.svg" alt="Rocapine Logo" className="logo" />
           <h1 style={{ fontFamily: "Grounded" }}>Rocapine</h1>
         </div>
         <p>A singular health & wellness experience at your fingertips.</p>
@@ -82,7 +82,7 @@ const App = () => {
       <div style={{ width: "100%", display: "flex", justifyContent: "center" }}>
         <p>
           <img
-            src="src/assets/circular-logo.svg"
+            src="circular-logo.svg"
             alt="Rocapine Circular Logo"
             className="logo"
             style={{ width: "100px" }}
