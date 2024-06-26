@@ -4,7 +4,7 @@ const App = () => {
   return (
     <div className="App">
       <header className="header">
-        <div style={{ display: "flex", flexDirection: "row" }}>
+        <div className="logo-title">
           <img src="src/assets/logo.svg" alt="Rocapine Logo" className="logo" />
           <h1 style={{ fontFamily: "Grounded" }}>Rocapine</h1>
         </div>
@@ -76,6 +76,19 @@ const App = () => {
           </li>
         </ul>
       </section>
+
+      <div className="separator" />
+
+      <div style={{ width: "100%", display: "flex", justifyContent: "center" }}>
+        <p>
+          <img
+            src="src/assets/circular-logo.svg"
+            alt="Rocapine Circular Logo"
+            className="logo"
+            style={{ width: "100px" }}
+          />
+        </p>
+      </div>
     </div>
   );
 };

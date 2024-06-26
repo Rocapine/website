@@ -41,6 +41,15 @@ h6 {
   }
 }
 
+.logo-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
+}
+
 .about,
 .join-us,
 .publishing {
