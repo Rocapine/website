@@ -35,6 +35,10 @@ h6 {
 .header {
   padding: 20px;
   max-width: 560px;
+  align-self: center;
+  img {
+    width: 7rem;
+  }
 }
 
 .about,

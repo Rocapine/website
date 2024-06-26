@@ -4,7 +4,10 @@ const App = () => {
   return (
     <div className="App">
       <header className="header">
-        <h1 style={{ fontFamily: "Grounded" }}>Rocapine</h1>
+        <div style={{ display: "flex", flexDirection: "row" }}>
+          <img src="src/assets/logo.svg" alt="Rocapine Logo" className="logo" />
+          <h1 style={{ fontFamily: "Grounded" }}>Rocapine</h1>
+        </div>
         <p>A singular health & wellness experience at your fingertips.</p>
       </header>
 
