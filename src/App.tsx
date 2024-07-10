@@ -1,13 +1,13 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './Home';
-// import CGU from './CGU';
+import Terms from './Terms';
 
 const App = () => {
     return (
         <Router>
             <Routes>
                 <Route path="/" element={<Home />} />
-                {/* <Route path="/cgu" element={<CGU />} /> */}
+                <Route path="/terms" element={<Terms />} />
             </Routes>
         </Router>
     );

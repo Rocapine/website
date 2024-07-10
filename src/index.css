@@ -17,6 +17,10 @@
   align-items: center;
 }
 
+main {
+  max-width: 30rem;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
