@@ -101,6 +101,12 @@ const Home = () => {
             style={{ width: "100px" }}
           />
         </p>
+        <p>
+
+          <a href="/terms">Terms</a>
+          <br />
+          <a href="/privacy">Privacy</a>
+        </p>
       </div>
     </div>
   );
