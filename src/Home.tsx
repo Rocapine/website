@@ -92,7 +92,7 @@ const Home = () => {
 
       <div className="separator" />
 
-      <div style={{ width: "100%", display: "flex", justifyContent: "center" }}>
+      <div style={{ width: "100%", display: "flex", justifyContent: "center", alignItems: "center" }}>
         <p>
           <img
             src="circular-logo.svg"
@@ -102,7 +102,6 @@ const Home = () => {
           />
         </p>
         <p>
-
           <a href="/terms">Terms</a>
           <br />
           <a href="/privacy">Privacy</a>
