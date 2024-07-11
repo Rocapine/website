@@ -7,7 +7,7 @@ const Terms = () => {
         <h2>Legal information</h2>
         <p>The website "<a href="https://rocapine.com/">https://rocapine.com/</a>” (hereinafter referred to as the "Website") is owned by ROCAPINE SAS, a simplified joint stock company with share capital of 1,500 euros, entered on the Paris Trade and Companies Register under number 929 934 503, having its registered office at 5 rue Gérando, 75009 Paris, France (hereinafter referred to as "Rocapine").</p>
         <p>E-mail: <a href="mailto:contact@rocapine.com">contact@rocapine.com</a></p>
-        <p>Individual tax identification number: 3018978144364</p>
+        <p>Individual tax identification number: 20241900192424</p>
 
         <h3>Publication director:</h3>
         <p>The publication director of the Website is Mr. Stanislas Marchand.</p>
