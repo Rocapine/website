@@ -12,6 +12,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <script src="https://cdn.amplitude.com/libs/analytics-browser-2.7.4-min.js.gz"></script>
+  <script src="https://cdn.amplitude.com/libs/plugin-session-replay-browser-1.4.1-min.js.gz"></script>
+  <script src="https://cdn.amplitude.com/libs/plugin-autocapture-browser-0.9.0-min.js.gz"></script>
+  <script>window.amplitude.add(window.sessionReplay.plugin({ sampleRate: 1 })).promise.then(function () { window.amplitude.add(window.amplitudeAutocapturePlugin.plugin()); window.amplitude.init('513c50d333e6454624cd432258025a9'); });</script>
   <title>Rocapine</title>
 </head>
 
