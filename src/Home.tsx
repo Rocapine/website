@@ -1,4 +1,5 @@
 import "./App.css";
+import Arrow from "./arrow.svg";
 
 const Home = () => {
   return (
@@ -60,26 +61,31 @@ const Home = () => {
             <a href="mailto:contact@rocapine.com?subject=Application for Product Manager">
               Product Manager
             </a>
+            <img src={Arrow} alt="Arrow Icon" />
           </li>
           <li>
             <a href="mailto:contact@rocapine.com?subject=Application for Designer">
               Designer
             </a>
+            <img src={Arrow} alt="Arrow Icon" />
           </li>
           <li>
             <a href="mailto:contact@rocapine.com?subject=Application for Developer (React Native or Swift)">
               Developer (React Native or Swift)
             </a>
+            <img src={Arrow} alt="Arrow Icon" />
           </li>
           <li>
             <a href="mailto:contact@rocapine.com?subject=Application for Marketing Specialist">
               Marketing Specialist
             </a>
+            <img src={Arrow} alt="Arrow Icon" />
           </li>
           <li>
             <a href="mailto:contact@rocapine.com?subject=Spontaneous Application">
               Spontaneous Application
             </a>
+            <img src={Arrow} alt="Arrow Icon" />
           </li>
         </ul>
       </section>
