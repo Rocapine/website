@@ -4,10 +4,8 @@ const Home = () => {
   return (
     <div className="App">
       <header className="header">
-        <div className="logo-title">
-          <img src="logo.svg" alt="Rocapine Logo" className="logo" />
-          <h1 style={{ fontFamily: "Grounded" }}>Rocapine</h1>
-        </div>
+        <img src="logo.svg" alt="Rocapine Logo" />
+        <h1>Rocapine</h1>
         <p>A singular health & wellness experience at your fingertips.</p>
       </header>
 
@@ -92,20 +90,11 @@ const Home = () => {
 
       <div className="separator" />
 
-      <div style={{ width: "100%", display: "flex", justifyContent: "center", alignItems: "center" }}>
-        <p>
-          <img
-            src="circular-logo.svg"
-            alt="Rocapine Circular Logo"
-            className="logo"
-            style={{ width: "100px" }}
-          />
-        </p>
-        <p>
-          <a href="/terms">Terms</a>
-          <br />
-          <a href="/privacy">Privacy</a>
-        </p>
+      <div className="footer">
+        <img src="logo.svg" alt="Rocapine Logo" />
+        <h1>Rocapine</h1>
+        <a href="/terms">Terms</a>
+        <a href="/privacy">Privacy</a>
       </div>
     </div>
   );
