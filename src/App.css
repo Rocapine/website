@@ -53,12 +53,33 @@ section {
   border-radius: 10px;
   padding: 40px;
   margin-bottom: 40px;
+  transition: padding 0.3s ease;
+  box-sizing: border-box;
+  transition: background-color 0.3s ease;
+  h2 {
+    width: 40%;
+    padding-left: 0px;
+    margin: 0px;
+    transition: margin 0.3s ease;
+  }
+}
+
+section:hover {
+  background-color: #f5f7f5;
+  h2 {
+    margin: 6px;
+  }
 }
 
 .about,
 .join-us,
 .publishing {
   max-width: 560px;
+}
+
+.join-us {
+  max-width: 400px;
+  align-self: center;
 }
 
 .separator {

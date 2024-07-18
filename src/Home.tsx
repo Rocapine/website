@@ -43,11 +43,7 @@ const Home = () => {
           tools and marketing capabilities.
         </p>
         <p>
-          Reach out to us{" "}
-          <a href="mailto:contact@rocapine.com?subject=Application for Publishing partner">
-            here
-          </a>{" "}
-          if you have a published app we can help you scale further, or if you
+          Reach out to us at <strong>contact@rocapine.com</strong> if you have a published app we can help you scale further, or if you
           are interested in developing wellness apps with Rocapine!
         </p>
       </section>
