@@ -34,6 +34,7 @@
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.9px;
+    text-align: center;
   }
   img {
     width: 7rem;
@@ -58,8 +59,6 @@ section {
   box-sizing: border-box;
   transition: background-color 0.3s ease;
   h2 {
-    width: 40%;
-    padding-left: 0px;
     margin: 0px;
     transition: margin 0.3s ease;
   }
@@ -115,7 +114,7 @@ section.publishing:hover {
   margin-bottom: 20px;
 }
 
-.footer {
+footer {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -123,5 +122,15 @@ section.publishing:hover {
   gap: 32px;
   a {
     color: #2c4138;
+  }
+}
+
+@media (max-width: 768px) {
+  footer {
+    flex-direction: column;
+    width: 100%;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 10px;
   }
 }

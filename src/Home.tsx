@@ -92,12 +92,12 @@ const Home = () => {
 
       <div className="separator" />
 
-      <div className="footer">
+      <footer>
         <img src="logo.svg" alt="Rocapine Logo" />
         <h1>Rocapine</h1>
         <a href="/terms">Terms</a>
         <a href="/privacy">Privacy</a>
-      </div>
+      </footer>
     </div>
   );
 };
