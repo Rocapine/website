@@ -82,7 +82,7 @@ const Home = () => {
             </a>
           </li>
           <li>
-            <a href="https://rocapine.notion.site/Mobile-team-dev-design-PM-Freelancer-or-Permanent-84fb262ea50a4f3c868836fcc9c1a4ab">
+            <a href="https://rocapine.notion.site/Spontaneous-Application-46145f62f1e5432ba62e52311a483022">
               Spontaneous Application
               <img src={Arrow} alt="Arrow Icon" />
             </a>
