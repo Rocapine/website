@@ -58,34 +58,34 @@ const Home = () => {
         </p>
         <ul>
           <li>
-            <a href="mailto:contact@rocapine.com?subject=Application for Product Manager">
-              Product Manager
+            <a href="https://rocapine.notion.site/Mobile-team-dev-design-PM-Freelancer-or-Permanent-84fb262ea50a4f3c868836fcc9c1a4ab">
+              Product
+              <img src={Arrow} alt="Arrow Icon" />
             </a>
-            <img src={Arrow} alt="Arrow Icon" />
           </li>
           <li>
-            <a href="mailto:contact@rocapine.com?subject=Application for Designer">
-              Designer
+            <a href="https://rocapine.notion.site/Mobile-team-dev-design-PM-Freelancer-or-Permanent-84fb262ea50a4f3c868836fcc9c1a4ab">
+              Design
+              <img src={Arrow} alt="Arrow Icon" />
             </a>
-            <img src={Arrow} alt="Arrow Icon" />
           </li>
           <li>
-            <a href="mailto:contact@rocapine.com?subject=Application for Developer (React Native or Swift)">
-              Developer (React Native or Swift)
+            <a href="https://rocapine.notion.site/Mobile-team-dev-design-PM-Freelancer-or-Permanent-84fb262ea50a4f3c868836fcc9c1a4ab">
+              Software
+              <img src={Arrow} alt="Arrow Icon" />
             </a>
-            <img src={Arrow} alt="Arrow Icon" />
           </li>
           <li>
-            <a href="mailto:contact@rocapine.com?subject=Application for Marketing Specialist">
-              Marketing Specialist
+            <a href="https://rocapine.notion.site/Head-of-Marketing-UA-Manager-3d14e15015714aa59fb308df9c552dac">
+              Marketing
+              <img src={Arrow} alt="Arrow Icon" />
             </a>
-            <img src={Arrow} alt="Arrow Icon" />
           </li>
           <li>
-            <a href="mailto:contact@rocapine.com?subject=Spontaneous Application">
+            <a href="https://rocapine.notion.site/Mobile-team-dev-design-PM-Freelancer-or-Permanent-84fb262ea50a4f3c868836fcc9c1a4ab">
               Spontaneous Application
+              <img src={Arrow} alt="Arrow Icon" />
             </a>
-            <img src={Arrow} alt="Arrow Icon" />
           </li>
         </ul>
       </section>
