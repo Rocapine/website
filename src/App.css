@@ -125,6 +125,13 @@ footer {
   a {
     color: #2c4138;
   }
+  h1 {
+    font-family: "Grounded";
+    letter-spacing: 3.2px;
+    font-size: 40px;
+    line-height: normal;
+    color: #2c4138;
+  }
 }
 
 @media (max-width: 768px) {
