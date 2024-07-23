@@ -1,11 +1,22 @@
 import "./App.css";
+import Lottie, { Options } from 'react-lottie';
 import Arrow from "./arrow.svg";
+import animationData from "./assets/animations/rocapine-logo.json"
+
+const defaultOptions: Options = {
+  loop: false,
+  autoplay: true,
+  animationData: animationData,
+  rendererSettings: {
+    preserveAspectRatio: 'xMidYMid slice'
+  },
+};
 
 const Home = () => {
   return (
     <div className="App">
       <header className="header">
-        <img src="logo.svg" alt="Rocapine Logo" />
+        <Lottie options={defaultOptions} height={100} width={120} />
         <h1>Rocapine</h1>
         <p>A singular health & wellness experience at your fingertips.</p>
       </header>
